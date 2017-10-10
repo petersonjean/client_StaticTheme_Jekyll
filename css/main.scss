@@ -1,0 +1,51 @@
+---
+# Only the main Sass file for materailize added and needs front matter
+---
+@charset "utf-8";
+
+// Variables to modify font folders
+$icon-font-path:      "../fonts/roboto"; 
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import "materialize"; 
+ 
+nav{
+	background-color: #272D4E;
+	background-image: radial-gradient(circle farthest-side at right bottom,#414b82 34%,#272d4e 100%);
+	}
+nav li a:hover{
+	border-bottom: 5px solid #fff;
+	}
+.header-content{
+	height: 524px;
+	margin-top: 0px;
+	background: url('../img/lukas-blazek-367945.jpg') no-repeat center center scroll;
+	background-size: cover;
+	}
+.header-content h1{ 
+	margin-top: 0px; 
+	}
+.center{
+	text-align:center;
+	
+	}
+h4{
+	font-size: 2.28rem;
+	}
+.section h4{
+	font-weight:300;
+	color: black;
+	}
+.section h5	{
+	color: #5a5a5a;
+    margin-bottom: 50px;
+    font-size: 1.2em;
+	}
+.section.card-title{
+	font-weight: 400;
+	font-size: 22px;
+	}
+footer{
+	background-color: #272D4E;
+	background-image: radial-gradient(circle farthest-side at right bottom,#414b82 34%,#272d4e 100%);
+	}
